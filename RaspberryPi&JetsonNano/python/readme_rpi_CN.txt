@@ -35,6 +35,7 @@ BUSY   ->    24
     sudo apt-get install python-pil
     sudo apt-get install python-numpy
     sudo pip install RPi.GPIO
+    sudo pip install spidev
 
 或
 
@@ -43,8 +44,10 @@ BUSY   ->    24
     sudo apt-get install python3-pil
     sudo apt-get install python3-numpy
     sudo pip3 install RPi.GPIO
+    sudo pip3 install spidev
 
 4.基本使用：
+优先打开raspberry pi的spi接口
 由于本工程是一个综合工程，对于使用而言，你可能需要阅读以下内容：
 你可以在examples\目录中查看测试程序
 请注意你购买的是哪一款的墨水屏。
